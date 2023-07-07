@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E13C03E2A56C9BE0036AEF0 /* categoryNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E13C03D2A56C9BE0036AEF0 /* categoryNameView.swift */; };
+		6E13C0402A5771A50036AEF0 /* itemOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E13C03F2A5771A50036AEF0 /* itemOrderView.swift */; };
+		6E5AB1442A498C1C00E6885E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5AB1432A498C1C00E6885E /* Colors.swift */; };
+		6E6A48872A582CDF00F08B26 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A48862A582CDF00F08B26 /* SplashScreenView.swift */; };
+		6EA6551A2A49C47E00809F63 /* BrandonGrotesqueRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EA655182A49C47E00809F63 /* BrandonGrotesqueRegular.ttf */; };
+		6EA6551B2A49C47E00809F63 /* BrandonGrotesqueMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EA655192A49C47E00809F63 /* BrandonGrotesqueMedium.ttf */; };
+		6EA655202A49DA6A00809F63 /* nameCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6551F2A49DA6A00809F63 /* nameCheck.swift */; };
+		6EA655242A4C675100809F63 /* basketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA655232A4C675100809F63 /* basketView.swift */; };
 		6EF8FB4A2A48D944007EA856 /* myStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF8FB492A48D944007EA856 /* myStoreApp.swift */; };
 		6EF8FB4C2A48D944007EA856 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF8FB4B2A48D944007EA856 /* ContentView.swift */; };
 		6EF8FB4E2A48D945007EA856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF8FB4D2A48D945007EA856 /* Assets.xcassets */; };
@@ -14,6 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E13C03D2A56C9BE0036AEF0 /* categoryNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryNameView.swift; sourceTree = "<group>"; };
+		6E13C03F2A5771A50036AEF0 /* itemOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemOrderView.swift; sourceTree = "<group>"; };
+		6E5AB1432A498C1C00E6885E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		6E6A48862A582CDF00F08B26 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		6EA655182A49C47E00809F63 /* BrandonGrotesqueRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BrandonGrotesqueRegular.ttf; sourceTree = "<group>"; };
+		6EA655192A49C47E00809F63 /* BrandonGrotesqueMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BrandonGrotesqueMedium.ttf; sourceTree = "<group>"; };
+		6EA6551C2A49CD6000809F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6EA6551F2A49DA6A00809F63 /* nameCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameCheck.swift; sourceTree = "<group>"; };
+		6EA655232A4C675100809F63 /* basketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basketView.swift; sourceTree = "<group>"; };
 		6EF8FB462A48D944007EA856 /* myStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF8FB492A48D944007EA856 /* myStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myStoreApp.swift; sourceTree = "<group>"; };
 		6EF8FB4B2A48D944007EA856 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EA655172A49C46400809F63 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				6EA655192A49C47E00809F63 /* BrandonGrotesqueMedium.ttf */,
+				6EA655182A49C47E00809F63 /* BrandonGrotesqueRegular.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
 		6EF8FB3D2A48D944007EA856 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +77,16 @@
 		6EF8FB482A48D944007EA856 /* myStore */ = {
 			isa = PBXGroup;
 			children = (
+				6EA6551C2A49CD6000809F63 /* Info.plist */,
+				6E5AB1432A498C1C00E6885E /* Colors.swift */,
+				6E6A48862A582CDF00F08B26 /* SplashScreenView.swift */,
 				6EF8FB492A48D944007EA856 /* myStoreApp.swift */,
 				6EF8FB4B2A48D944007EA856 /* ContentView.swift */,
+				6EA6551F2A49DA6A00809F63 /* nameCheck.swift */,
+				6EA655232A4C675100809F63 /* basketView.swift */,
+				6E13C03D2A56C9BE0036AEF0 /* categoryNameView.swift */,
+				6E13C03F2A5771A50036AEF0 /* itemOrderView.swift */,
+				6EA655172A49C46400809F63 /* font */,
 				6EF8FB4D2A48D945007EA856 /* Assets.xcassets */,
 				6EF8FB4F2A48D945007EA856 /* Preview Content */,
 			);
@@ -125,6 +159,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA6551B2A49C47E00809F63 /* BrandonGrotesqueMedium.ttf in Resources */,
+				6EA6551A2A49C47E00809F63 /* BrandonGrotesqueRegular.ttf in Resources */,
 				6EF8FB512A48D945007EA856 /* Preview Assets.xcassets in Resources */,
 				6EF8FB4E2A48D945007EA856 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +174,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EF8FB4C2A48D944007EA856 /* ContentView.swift in Sources */,
+				6EA655202A49DA6A00809F63 /* nameCheck.swift in Sources */,
+				6EA655242A4C675100809F63 /* basketView.swift in Sources */,
+				6E5AB1442A498C1C00E6885E /* Colors.swift in Sources */,
 				6EF8FB4A2A48D944007EA856 /* myStoreApp.swift in Sources */,
+				6E13C03E2A56C9BE0036AEF0 /* categoryNameView.swift in Sources */,
+				6E13C0402A5771A50036AEF0 /* itemOrderView.swift in Sources */,
+				6E6A48872A582CDF00F08B26 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +311,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"myStore/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +340,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"myStore/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
